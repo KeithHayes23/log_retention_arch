@@ -1,0 +1,3 @@
+{
+  "app": "npx ts-node bin/log_retention_arch.ts"
+}
