@@ -1,3 +1,11 @@
+## About
+
+This a step by step tutorial for automating the management of your logs in Amazon Web Services (AWS).
+
+<img src="assets/arch.png" width="600">
+
+
+
 # Useful commands
 
  * `npm run build`   compile typescript to js
