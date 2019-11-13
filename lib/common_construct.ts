@@ -10,7 +10,7 @@ export class CommonConstruct extends cdk.Construct{
         
         /** S3 Bucket for archiving logs with encryption, and a lifecycle policy */
         const bucket = new s3.Bucket(this, props.log_bucket_name, {
-            encryption: s3.BucketEncryption.KMS_MANAGED,
+            encryption: s3.BucketEncryption.S3_MANAGED,
             bucketName: props.log_bucket_name,
             blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
             publicReadAccess: false,
